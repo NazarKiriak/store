@@ -1,0 +1,15 @@
+.footer {
+  background-color: #7273BF;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  grid-area: f;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer b {
+  font-size: 1.5em;
+}

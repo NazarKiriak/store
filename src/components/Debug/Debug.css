@@ -1,0 +1,28 @@
+.debug-container {
+    background-color: #78A4F5;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .debug-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .debug-container ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .debug-container li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .debug-container p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  

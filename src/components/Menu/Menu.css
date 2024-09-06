@@ -1,0 +1,43 @@
+.menu {
+  background-color: #A7ACF5;
+  border: 2px solid #4C4780;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  grid-area: m;
+  text-align: center;
+}
+
+.authText {
+  font-size: 1.2em;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.category-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px 0;
+  gap: 1em;
+}
+
+.category-links button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1em;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-links button:hover {
+  background-color: #4DC496;
+}

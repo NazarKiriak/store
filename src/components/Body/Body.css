@@ -1,0 +1,67 @@
+.body {
+  border: 2px solid #1c1c1c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  grid-area: b;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.bodyContent {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.body ol {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.body li {
+  margin-bottom: 20px;
+}
+
+.label-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 20px;
+}
+
+.selected-products span {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.productInfo-currency {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.currency-button {
+  width: 200px;
+  height: 45px;
+  background-color: darkcyan;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 2px solid black;
+  color: aliceblue;
+  margin-top: 10px;
+  transition: all ease-in-out;
+}
+
+.currency-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.currency-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
